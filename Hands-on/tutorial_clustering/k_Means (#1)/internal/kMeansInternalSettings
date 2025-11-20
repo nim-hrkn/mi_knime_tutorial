@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="kMeans">
+    <entry key="dimensions" type="xint" value="9"/>
+    <entry key="ignoredColumns" type="xint" value="3"/>
+    <config key="clusterCoverage">
+        <entry key="array-size" type="xint" value="2"/>
+        <entry key="0" type="xint" value="25"/>
+        <entry key="1" type="xint" value="17"/>
+    </config>
+    <config key="kMeansCluster0">
+        <entry key="array-size" type="xint" value="6"/>
+        <entry key="0" type="xdouble" value="-0.7012737879463471"/>
+        <entry key="1" type="xdouble" value="0.5814595748311129"/>
+        <entry key="2" type="xdouble" value="-0.7186403703645419"/>
+        <entry key="3" type="xdouble" value="-0.7344917244901764"/>
+        <entry key="4" type="xdouble" value="-0.5269157628242932"/>
+        <entry key="5" type="xdouble" value="0.22489177738366542"/>
+    </config>
+    <config key="kMeansCluster1">
+        <entry key="array-size" type="xint" value="6"/>
+        <entry key="0" type="xdouble" value="1.0312849822740389"/>
+        <entry key="1" type="xdouble" value="-0.8550876100457601"/>
+        <entry key="2" type="xdouble" value="1.0568240740655033"/>
+        <entry key="3" type="xdouble" value="1.0801348889561433"/>
+        <entry key="4" type="xdouble" value="0.7748761218004345"/>
+        <entry key="5" type="xdouble" value="-0.3307232020348048"/>
+    </config>
+    <config key="FeatureNames">
+        <entry key="array-size" type="xint" value="9"/>
+        <entry key="0" type="xstring" value="a0.70_rp2.40"/>
+        <entry key="1" type="xstring" value="a0.70_rp3.00"/>
+        <entry key="2" type="xstring" value="a0.70_rp3.60"/>
+        <entry key="3" type="xstring" value="a0.70_rp4.20"/>
+        <entry key="4" type="xstring" value="a0.70_rp4.80"/>
+        <entry key="5" type="xstring" value="a0.70_rp5.40"/>
+        <entry key="6" type="xstring" isnull="true" value=""/>
+        <entry key="7" type="xstring" isnull="true" value=""/>
+        <entry key="8" type="xstring" isnull="true" value=""/>
+    </config>
+</config>

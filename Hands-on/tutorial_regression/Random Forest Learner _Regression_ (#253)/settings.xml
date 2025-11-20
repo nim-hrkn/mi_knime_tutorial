@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+    <entry key="node_file" type="xstring" value="settings.xml"/>
+    <config key="flow_stack"/>
+    <config key="internal_node_subsettings">
+        <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+    </config>
+    <config key="model">
+        <entry key="targetColumn" type="xstring" value="(rho0 lambda) perp lambda (10^-16 m^2)"/>
+        <entry key="seed" type="xstring" value="1713685683193"/>
+        <entry key="maxLevels" type="xint" value="-1"/>
+        <entry key="minNodeSize" type="xint" value="-1"/>
+        <entry key="minChildSize" type="xint" value="-1"/>
+        <entry key="dataFraction" type="xdouble" value="1.0"/>
+        <entry key="isDataSelectionWithReplacement" type="xboolean" value="true"/>
+        <entry key="hardCodedRootColumn" type="xstring" isnull="true" value=""/>
+        <entry key="columnSamplingMode" type="xstring" value="SquareRoot"/>
+        <entry key="columnFractionPerTree" type="xdouble" value="1.0"/>
+        <entry key="columnAbsolutePerTree" type="xint" value="10"/>
+        <entry key="isUseDifferentAttributesAtEachNode" type="xboolean" value="true"/>
+        <entry key="nrModels" type="xint" value="100"/>
+        <entry key="splitCriterion" type="xstring" value="InformationGainRatio"/>
+        <entry key="missingValueHandling" type="xstring" value="XGBoost"/>
+        <entry key="useAverageSplitPoints" type="xboolean" value="true"/>
+        <entry key="useBinaryNominalSplits" type="xboolean" value="true"/>
+        <entry key="fingerprintColumn" type="xstring" isnull="true" value=""/>
+        <config key="columnFilterConfig">
+            <entry key="filter-type" type="xstring" value="STANDARD"/>
+            <config key="included_names">
+                <entry key="array-size" type="xint" value="102"/>
+                <entry key="0" type="xstring" value="n"/>
+                <entry key="1" type="xstring" value="adirection"/>
+                <entry key="2" type="xstring" value="bdirection"/>
+                <entry key="3" type="xstring" value="TM_Z"/>
+                <entry key="4" type="xstring" value="TM_row"/>
+                <entry key="5" type="xstring" value="TM_group"/>
+                <entry key="6" type="xstring" value="TM_atomic_radius_calculated"/>
+                <entry key="7" type="xstring" value="TM_mendeleev_no"/>
+                <entry key="8" type="xstring" value="TM_electrical_resistivity"/>
+                <entry key="9" type="xstring" value="TM_poissons_ratio"/>
+                <entry key="10" type="xstring" value="TM_molar_volume"/>
+                <entry key="11" type="xstring" value="TM_thermal_conductivity"/>
+                <entry key="12" type="xstring" value="TM_boiling_point"/>
+                <entry key="13" type="xstring" value="TM_melting_point"/>
+                <entry key="14" type="xstring" value="TM_liquid_range"/>
+                <entry key="15" type="xstring" value="TM_bulk_modulus"/>
+                <entry key="16" type="xstring" value="TM_youngs_modulus"/>
+                <entry key="17" type="xstring" value="TM_brinell_hardness"/>
+                <entry key="18" type="xstring" value="TM_rigidity_modulus"/>
+                <entry key="19" type="xstring" value="TM_mineral_hardness"/>
+                <entry key="20" type="xstring" value="TM_vickers_hardness"/>
+                <entry key="21" type="xstring" value="TM_density_of_solid"/>
+                <entry key="22" type="xstring" value="TM_coefficient_of_linear_thermal_expansion"/>
+                <entry key="23" type="xstring" value="TM_ionization_energies"/>
+                <entry key="24" type="xstring" value="TM_atomic_mass"/>
+                <entry key="25" type="xstring" value="TM_atomic_radius"/>
+                <entry key="26" type="xstring" value="TM_average_anionic_radius"/>
+                <entry key="27" type="xstring" value="TM_average_cationic_radius"/>
+                <entry key="28" type="xstring" value="TM_average_ionic_radius"/>
+                <entry key="29" type="xstring" value="TM_electron_affinity"/>
+                <entry key="30" type="xstring" value="A_Z"/>
+                <entry key="31" type="xstring" value="A_row"/>
+                <entry key="32" type="xstring" value="A_group"/>
+                <entry key="33" type="xstring" value="A_atomic_radius_calculated"/>
+                <entry key="34" type="xstring" value="A_mendeleev_no"/>
+                <entry key="35" type="xstring" value="A_electrical_resistivity"/>
+                <entry key="36" type="xstring" value="A_molar_volume"/>
+                <entry key="37" type="xstring" value="A_thermal_conductivity"/>
+                <entry key="38" type="xstring" value="A_boiling_point"/>
+                <entry key="39" type="xstring" value="A_melting_point"/>
+                <entry key="40" type="xstring" value="A_liquid_range"/>
+                <entry key="41" type="xstring" value="A_mineral_hardness"/>
+                <entry key="42" type="xstring" value="A_density_of_solid"/>
+                <entry key="43" type="xstring" value="A_ionization_energies"/>
+                <entry key="44" type="xstring" value="A_atomic_mass"/>
+                <entry key="45" type="xstring" value="A_atomic_radius"/>
+                <entry key="46" type="xstring" value="A_average_anionic_radius"/>
+                <entry key="47" type="xstring" value="A_average_cationic_radius"/>
+                <entry key="48" type="xstring" value="A_average_ionic_radius"/>
+                <entry key="49" type="xstring" value="A_electron_affinity"/>
+                <entry key="50" type="xstring" value="X_Z"/>
+                <entry key="51" type="xstring" value="X_row"/>
+                <entry key="52" type="xstring" value="X_group"/>
+                <entry key="53" type="xstring" value="X_atomic_radius_calculated"/>
+                <entry key="54" type="xstring" value="X_mendeleev_no"/>
+                <entry key="55" type="xstring" value="X_refractive_index"/>
+                <entry key="56" type="xstring" value="X_molar_volume"/>
+                <entry key="57" type="xstring" value="X_thermal_conductivity"/>
+                <entry key="58" type="xstring" value="X_boiling_point"/>
+                <entry key="59" type="xstring" value="X_melting_point"/>
+                <entry key="60" type="xstring" value="X_liquid_range"/>
+                <entry key="61" type="xstring" value="X_ionization_energies"/>
+                <entry key="62" type="xstring" value="X_atomic_mass"/>
+                <entry key="63" type="xstring" value="X_atomic_radius"/>
+                <entry key="64" type="xstring" value="X_average_anionic_radius"/>
+                <entry key="65" type="xstring" value="X_average_cationic_radius"/>
+                <entry key="66" type="xstring" value="X_average_ionic_radius"/>
+                <entry key="67" type="xstring" value="X_electron_affinity"/>
+                <entry key="68" type="xstring" value="mean_Z"/>
+                <entry key="69" type="xstring" value="stddev_Z"/>
+                <entry key="70" type="xstring" value="mean_row"/>
+                <entry key="71" type="xstring" value="stddev_row"/>
+                <entry key="72" type="xstring" value="mean_group"/>
+                <entry key="73" type="xstring" value="stddev_group"/>
+                <entry key="74" type="xstring" value="mean_atomic_radius_calculated"/>
+                <entry key="75" type="xstring" value="stddev_atomic_radius_calculated"/>
+                <entry key="76" type="xstring" value="mean_mendeleev_no"/>
+                <entry key="77" type="xstring" value="stddev_mendeleev_no"/>
+                <entry key="78" type="xstring" value="mean_molar_volume"/>
+                <entry key="79" type="xstring" value="stddev_molar_volume"/>
+                <entry key="80" type="xstring" value="mean_thermal_conductivity"/>
+                <entry key="81" type="xstring" value="stddev_thermal_conductivity"/>
+                <entry key="82" type="xstring" value="mean_boiling_point"/>
+                <entry key="83" type="xstring" value="stddev_boiling_point"/>
+                <entry key="84" type="xstring" value="mean_melting_point"/>
+                <entry key="85" type="xstring" value="stddev_melting_point"/>
+                <entry key="86" type="xstring" value="mean_liquid_range"/>
+                <entry key="87" type="xstring" value="stddev_liquid_range"/>
+                <entry key="88" type="xstring" value="mean_ionization_energies"/>
+                <entry key="89" type="xstring" value="stddev_ionization_energies"/>
+                <entry key="90" type="xstring" value="mean_atomic_mass"/>
+                <entry key="91" type="xstring" value="stddev_atomic_mass"/>
+                <entry key="92" type="xstring" value="mean_atomic_radius"/>
+                <entry key="93" type="xstring" value="stddev_atomic_radius"/>
+                <entry key="94" type="xstring" value="mean_average_anionic_radius"/>
+                <entry key="95" type="xstring" value="stddev_average_anionic_radius"/>
+                <entry key="96" type="xstring" value="mean_average_cationic_radius"/>
+                <entry key="97" type="xstring" value="stddev_average_cationic_radius"/>
+                <entry key="98" type="xstring" value="mean_average_ionic_radius"/>
+                <entry key="99" type="xstring" value="stddev_average_ionic_radius"/>
+                <entry key="100" type="xstring" value="mean_electron_affinity"/>
+                <entry key="101" type="xstring" value="stddev_electron_affinity"/>
+            </config>
+            <config key="excluded_names">
+                <entry key="array-size" type="xint" value="4"/>
+                <entry key="0" type="xstring" value="Material"/>
+                <entry key="1" type="xstring" value="Hf (eV/atom)"/>
+                <entry key="2" type="xstring" value="Ecoh (eV/atom)"/>
+                <entry key="3" type="xstring" value="(rho0 lambda) perp tau (10^-16 m^2)"/>
+            </config>
+            <entry key="enforce_option" type="xstring" value="EnforceExclusion"/>
+            <config key="name_pattern">
+                <entry key="pattern" type="xstring" value=""/>
+                <entry key="type" type="xstring" value="Wildcard"/>
+                <entry key="caseSensitive" type="xboolean" value="true"/>
+                <entry key="excludeMatching" type="xboolean" value="false"/>
+            </config>
+            <config key="datatype">
+                <config key="typelist">
+                    <entry key="org.knime.core.data.StringValue" type="xboolean" value="false"/>
+                    <entry key="org.knime.core.data.DoubleValue" type="xboolean" value="false"/>
+                    <entry key="org.knime.core.data.BooleanValue" type="xboolean" value="false"/>
+                    <entry key="org.knime.core.data.IntValue" type="xboolean" value="false"/>
+                    <entry key="org.knime.core.data.LongValue" type="xboolean" value="false"/>
+                    <entry key="org.knime.core.data.date.DateAndTimeValue" type="xboolean" value="false"/>
+                </config>
+            </config>
+        </config>
+        <entry key="ignoreColumnsWithoutDomain" type="xboolean" value="true"/>
+        <entry key="nrHilitePatterns" type="xint" value="-1"/>
+        <entry key="saveTargetDistributionInNodes" type="xboolean" value="false"/>
+        <entry key="rowSamplingMode" type="xstring" value="Random"/>
+    </config>
+    <config key="variables">
+        <entry key="version" type="xstring" value="V_2019_09_13"/>
+        <config key="tree">
+            <config key="maxLevels">
+                <entry key="used_variable" type="xstring" value="levels"/>
+                <entry key="exposed_variable" type="xstring" isnull="true" value=""/>
+            </config>
+            <config key="minNodeSize">
+                <entry key="used_variable" type="xstring" value="minnodesize"/>
+                <entry key="exposed_variable" type="xstring" isnull="true" value=""/>
+            </config>
+            <config key="nrModels">
+                <entry key="used_variable" type="xstring" value="nmodels"/>
+                <entry key="exposed_variable" type="xstring" isnull="true" value=""/>
+            </config>
+        </config>
+    </config>
+    <entry key="customDescription" type="xstring" isnull="true" value=""/>
+    <entry key="state" type="xstring" value="EXECUTED"/>
+    <entry key="factory" type="xstring" value="org.knime.base.node.mine.treeensemble2.node.randomforest.learner.regression.RandomForestRegressionLearnerNodeFactory"/>
+    <entry key="node-name" type="xstring" value="Random Forest Learner (Regression)"/>
+    <entry key="node-bundle-name" type="xstring" value="Decisions Tree Ensembles for KNIME"/>
+    <entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.base.treeensembles2"/>
+    <entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+    <entry key="node-bundle-version" type="xstring" value="5.6.0.v202507151410"/>
+    <entry key="node-feature-name" type="xstring" value="KNIME Ensemble Learning Wrappers"/>
+    <entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.ensembles.feature.group"/>
+    <entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+    <entry key="node-feature-version" type="xstring" value="5.6.0.v202507151410"/>
+    <config key="factory_settings"/>
+    <entry key="name" type="xstring" value="Random Forest Learner (Regression)"/>
+    <entry key="hasContent" type="xboolean" value="true"/>
+    <entry key="isInactive" type="xboolean" value="false"/>
+    <config key="ports">
+        <config key="port_1">
+            <entry key="index" type="xint" value="1"/>
+            <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
+            <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+            <entry key="port_object_summary" type="xstring" value="Rows: 107, Cols: 110"/>
+            <entry key="port_dir_location" type="xstring" value="port_1"/>
+        </config>
+        <config key="port_2">
+            <entry key="index" type="xint" value="2"/>
+            <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
+            <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+            <entry key="port_object_summary" type="xstring" value="Rows: 102, Cols: 6"/>
+            <entry key="port_dir_location" type="xstring" value="port_2"/>
+        </config>
+        <config key="port_3">
+            <entry key="index" type="xint" value="3"/>
+            <entry key="port_spec_class" type="xstring" value="org.knime.base.node.mine.treeensemble2.model.TreeEnsembleModelPortObjectSpec"/>
+            <entry key="port_object_class" type="xstring" value="org.knime.base.node.mine.treeensemble2.model.TreeEnsembleModelPortObject"/>
+            <entry key="port_object_summary" type="xstring" value="20 classifiers on 102 attributes"/>
+            <entry key="port_spec_location" type="xstring" value="spec/spec.zip"/>
+            <entry key="port_object_location" type="xstring" value="object/portobject.zip"/>
+            <entry key="port_dir_location" type="xstring" value="port_3"/>
+        </config>
+    </config>
+    <config key="internalObjects">
+        <entry key="location" type="xstring" value="internalTables"/>
+        <config key="content">
+            <config key="object_0">
+                <entry key="index" type="xint" value="0"/>
+                <entry key="type" type="xstring" value="referenced_output"/>
+                <entry key="outport" type="xint" value="3"/>
+            </config>
+        </config>
+    </config>
+    <config key="filestores">
+        <entry key="file_store_location" type="xstring" value="filestore"/>
+        <entry key="file_store_id" type="xstring" value="f8c55804-f46f-44fd-85ab-f36297b25999"/>
+    </config>
+</config>

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+    <entry key="node_file" type="xstring" value="settings.xml"/>
+    <config key="flow_stack"/>
+    <config key="internal_node_subsettings">
+        <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+    </config>
+    <config key="model">
+        <config key="contextName_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <entry key="contextName" type="xstring" value="knimeSparkContext"/>
+        <config key="numberOfThreads_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_integer"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <entry key="numberOfThreads" type="xint" value="2"/>
+        <config key="onDisposeAction_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <entry key="onDisposeAction" type="xstring" value="DELETE_DATA"/>
+        <config key="overrideSparkSettings_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <entry key="overrideSparkSettings" type="xboolean" value="false"/>
+        <config key="customSparkSettings_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+            <entry key="EnabledStatus" type="xboolean" value="false"/>
+        </config>
+        <entry key="customSparkSettings" type="xstring" value="spark.jars: /path/to/some.jar%%00010spark.sql.shuffle.partitions: 100%%00010"/>
+        <config key="sqlSupport_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <entry key="sqlSupport" type="xstring" value="HIVEQL_WITH_JDBC"/>
+        <config key="useHiveDataFolder_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <entry key="useHiveDataFolder" type="xboolean" value="false"/>
+        <config key="hiveDataFolder_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+            <entry key="EnabledStatus" type="xboolean" value="false"/>
+        </config>
+        <entry key="hiveDataFolder" type="xstring" value=""/>
+        <config key="hideExistsWarning_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <entry key="hideExistsWarning" type="xboolean" value="false"/>
+        <config key="timeshift">
+            <config key="timeShiftStrategy_Internals">
+                <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+                <entry key="EnabledStatus" type="xboolean" value="true"/>
+            </config>
+            <entry key="timeShiftStrategy" type="xstring" value="DEFAULT_CLUSTER"/>
+            <config key="timeShiftFixedTimeZone_Internals">
+                <entry key="SettingsModelID" type="xstring" value="settingsmodel.timezone"/>
+                <entry key="EnabledStatus" type="xboolean" value="false"/>
+            </config>
+            <entry key="timeShiftFixedTimeZone" type="xstring" value="Asia/Tokyo"/>
+            <config key="failOnDifferentFixedVsClusterTimeZone_Internals">
+                <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+                <entry key="EnabledStatus" type="xboolean" value="false"/>
+            </config>
+            <entry key="failOnDifferentFixedVsClusterTimeZone" type="xboolean" value="true"/>
+        </config>
+        <config key="workingDirectoryMode_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <entry key="workingDirectoryMode" type="xstring" value="MANUAL"/>
+        <config key="workingDirectory_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <entry key="workingDirectory" type="xstring" value="C:\Users\hkn-l"/>
+    </config>
+    <entry key="customDescription" type="xstring" isnull="true" value=""/>
+    <entry key="state" type="xstring" value="EXECUTED"/>
+    <entry key="factory" type="xstring" value="org.knime.bigdata.spark.local.node.create.LocalEnvironmentCreatorNodeFactory3"/>
+    <entry key="node-name" type="xstring" value="Create Local Big Data Environment"/>
+    <entry key="node-bundle-name" type="xstring" value="Local Executor for Apache Spark"/>
+    <entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.bigdata.spark.local"/>
+    <entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+    <entry key="node-bundle-version" type="xstring" value="5.6.0.v202507151409"/>
+    <entry key="node-feature-name" type="xstring" value="KNIME Extension for Local Big Data Environments"/>
+    <entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.bigdata.spark.local.feature.group"/>
+    <entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+    <entry key="node-feature-version" type="xstring" value="5.7.0.v202508291155"/>
+    <entry key="factory-id-uniquifier" type="xstring" isnull="true" value=""/>
+    <config key="factory_settings"/>
+    <entry key="name" type="xstring" value="Create Local Big Data Environment"/>
+    <entry key="hasContent" type="xboolean" value="true"/>
+    <entry key="isInactive" type="xboolean" value="false"/>
+    <config key="ports">
+        <config key="port_1">
+            <entry key="index" type="xint" value="1"/>
+            <entry key="port_spec_class" type="xstring" value="org.knime.database.port.DBSessionPortObjectSpec"/>
+            <entry key="port_object_class" type="xstring" value="org.knime.database.port.DBSessionPortObject"/>
+            <entry key="port_object_summary" type="xstring" value="Hive f1af7899-bdab-41f7-b0fc-8793ea430f8e"/>
+            <entry key="port_spec_location" type="xstring" value="spec/spec.zip"/>
+            <entry key="port_object_location" type="xstring" value="object/portobject.zip"/>
+            <entry key="port_dir_location" type="xstring" value="port_1"/>
+        </config>
+        <config key="port_2">
+            <entry key="index" type="xint" value="2"/>
+            <entry key="port_spec_class" type="xstring" value="org.knime.filehandling.core.port.FileSystemPortObjectSpec"/>
+            <entry key="port_object_class" type="xstring" value="org.knime.filehandling.core.port.FileSystemPortObject"/>
+            <entry key="port_object_summary" type="xstring" value="local: 2deac85e-2228-4708-9481-b520a9e4d806"/>
+            <entry key="port_spec_location" type="xstring" value="spec/spec.zip"/>
+            <entry key="port_object_location" type="xstring" value="object/portobject.zip"/>
+            <entry key="port_dir_location" type="xstring" value="port_2"/>
+        </config>
+        <config key="port_3">
+            <entry key="index" type="xint" value="3"/>
+            <entry key="port_spec_class" type="xstring" value="org.knime.bigdata.spark.core.port.context.SparkContextPortObjectSpec"/>
+            <entry key="port_object_class" type="xstring" value="org.knime.bigdata.spark.core.port.context.SparkContextPortObject"/>
+            <entry key="port_object_summary" type="xstring" value="Local Spark Context (knimeSparkContext)"/>
+            <entry key="port_spec_location" type="xstring" value="spec/spec.zip"/>
+            <entry key="port_object_location" type="xstring" value="object/portobject.zip"/>
+            <entry key="port_dir_location" type="xstring" value="port_3"/>
+        </config>
+    </config>
+    <config key="filestores">
+        <entry key="file_store_location" type="xstring" isnull="true" value=""/>
+        <entry key="file_store_id" type="xstring" value="3f3221b8-e9e9-4a1b-a16c-3be085bcb8a6"/>
+    </config>
+</config>

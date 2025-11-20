@@ -1,0 +1,39 @@
+{
+  "version" : "5.8.0.v202510131944",
+  "projects" : [ {
+    "name" : "tutorial_regression",
+    "active" : false,
+    "origin" : {
+      "providerId" : "local",
+      "spaceId" : "local",
+      "relativePath" : "tutorial_regression"
+    }
+  }, {
+    "name" : "tutorial_regression_spark",
+    "active" : true,
+    "origin" : {
+      "providerId" : "local",
+      "spaceId" : "local",
+      "relativePath" : "tutorial_regression_spark"
+    }
+  } ],
+  "mostRecentlyUsedProjects" : [ {
+    "name" : "tutorial_regression",
+    "timeUsed" : "2025-11-20T10:26:49.1135146+09:00",
+    "origin" : {
+      "providerId" : "local",
+      "spaceId" : "local",
+      "projectType" : "WORKFLOW",
+      "relativePath" : "tutorial_regression"
+    }
+  }, {
+    "name" : "tutorial_regression_spark",
+    "timeUsed" : "2025-11-20T10:26:57.8031044+09:00",
+    "origin" : {
+      "providerId" : "local",
+      "spaceId" : "local",
+      "projectType" : "WORKFLOW",
+      "relativePath" : "tutorial_regression_spark"
+    }
+  } ]
+}

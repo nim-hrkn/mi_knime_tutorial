@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="saveInternalsSettings">
+    <entry key="deleteRDDsOnReset" type="xboolean" value="true"/>
+    <config key="RDDs">
+        <config key="contextID0">
+            <config key="contextID">
+                <entry key="sparkContextID" type="xstring" value="sparkLocal://knimeSparkContext"/>
+            </config>
+            <config key="namedRDDs">
+                <entry key="array-size" type="xint" value="1"/>
+                <entry key="0" type="xstring" value="24be0df6-6b8a-4229-9b12-0699820f1046"/>
+            </config>
+        </config>
+    </config>
+</config>

@@ -1,0 +1,30 @@
+{
+    "version": "5.8.0.v202510131944",
+    "created": "2025-11-20 01:26",
+    "nodestats": {
+        "nodes": [
+        ],
+        "metaNodes": {
+        },
+        "wrappedNodes": {
+        },
+        "createdVia": {
+        }
+    },
+    "uptime": 76663,
+    "workflowsOpened": 2,
+    "remoteWorkflowsOpened": 0,
+    "workflowsCreated": 0,
+    "remoteWorkflowsCreated": 0,
+    "columnarStorageWorkflowsOpened": 0,
+    "workflowsImported": 0,
+    "workflowsExported": 0,
+    "webUIPerspectiveSwitches": 0,
+    "javaUIPerspectiveSwitches": 0,
+    "lastUsedPerspective": "none",
+    "launches": 1,
+    "lastApplicationID": "org.knime.product.KNIME_APPLICATION",
+    "timeSinceLastStart": 76663,
+    "crashes": 0,
+    "properlyShutDown": true
+}

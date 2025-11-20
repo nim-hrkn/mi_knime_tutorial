@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+    <entry key="node_file" type="xstring" value="settings.xml"/>
+    <config key="flow_stack"/>
+    <config key="internal_node_subsettings">
+        <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+    </config>
+    <config key="model">
+        <config key="knospOutputID_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <entry key="knospOutputID" type="xstring" isnull="true" value=""/>
+    </config>
+    <entry key="customDescription" type="xstring" isnull="true" value=""/>
+    <entry key="state" type="xstring" value="EXECUTED"/>
+    <entry key="factory" type="xstring" value="org.knime.bigdata.spark.node.io.table.reader.Table2SparkNodeFactory2"/>
+    <entry key="node-name" type="xstring" value="Table to Spark"/>
+    <entry key="node-bundle-name" type="xstring" value="KNIME Extension for Apache Spark Nodes"/>
+    <entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.bigdata.spark.node"/>
+    <entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+    <entry key="node-bundle-version" type="xstring" value="5.6.0.v202507151409"/>
+    <entry key="node-feature-name" type="xstring" value="KNIME Extension for Apache Spark"/>
+    <entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.bigdata.spark.feature.group"/>
+    <entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+    <entry key="node-feature-version" type="xstring" value="5.7.0.v202508291155"/>
+    <entry key="factory-id-uniquifier" type="xstring" isnull="true" value=""/>
+    <config key="factory_settings"/>
+    <entry key="name" type="xstring" value="Table to Spark"/>
+    <entry key="hasContent" type="xboolean" value="true"/>
+    <entry key="isInactive" type="xboolean" value="false"/>
+    <config key="ports">
+        <config key="port_1">
+            <entry key="index" type="xint" value="1"/>
+            <entry key="port_spec_class" type="xstring" value="org.knime.bigdata.spark.core.port.data.SparkDataPortObjectSpec"/>
+            <entry key="port_object_class" type="xstring" value="org.knime.bigdata.spark.core.port.data.SparkDataPortObject"/>
+            <entry key="port_object_summary" type="xstring" value="7 columns"/>
+            <entry key="port_spec_location" type="xstring" value="spec/spec.zip"/>
+            <entry key="port_object_location" type="xstring" value="object/portobject.zip"/>
+            <entry key="port_dir_location" type="xstring" value="port_1"/>
+        </config>
+    </config>
+    <config key="filestores">
+        <entry key="file_store_location" type="xstring" isnull="true" value=""/>
+        <entry key="file_store_id" type="xstring" value="2a94c5e4-f396-407e-acd0-5157eaa73282"/>
+    </config>
+</config>

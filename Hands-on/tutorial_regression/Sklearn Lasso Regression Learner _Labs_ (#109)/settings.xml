@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+    <entry key="node_file" type="xstring" value="settings.xml"/>
+    <config key="flow_stack">
+        <config key="Variable_0">
+            <entry key="type" type="xstring" value="variable"/>
+            <entry key="name" type="xstring" value="0.1"/>
+            <entry key="class" type="xstring" value="DOUBLE"/>
+            <entry key="value" type="xdouble" value="0.01"/>
+        </config>
+    </config>
+    <config key="internal_node_subsettings">
+        <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+    </config>
+    <config key="model">
+        <config key="general_settings">
+            <entry key="json-type_Internals" type="xstring" value="OBJECT"/>
+            <config key="feature_columns">
+                <entry key="array-size" type="xint" value="6"/>
+                <entry key="0" type="xstring" value="x1"/>
+                <entry key="1" type="xstring" value="x2"/>
+                <entry key="2" type="xstring" value="x3"/>
+                <entry key="3" type="xstring" value="x4"/>
+                <entry key="4" type="xstring" value="x5"/>
+                <entry key="5" type="xstring" value="sinx"/>
+            </config>
+            <entry key="target_column" type="xstring" value="y"/>
+            <entry key="missing_value_handling" type="xstring" value="SkipRow"/>
+        </config>
+        <config key="algo_settings">
+            <entry key="json-type_Internals" type="xstring" value="OBJECT"/>
+            <entry key="alpha" type="xdouble" value="0.1"/>
+            <entry key="fit_intercept" type="xboolean" value="false"/>
+            <entry key="max_iter" type="xint" value="1000"/>
+        </config>
+        <entry key="json-type_Internals" type="xstring" value="OBJECT"/>
+        <entry key="extension_version_Internals" type="xstring" value="5.5.1"/>
+    </config>
+    <config key="variables">
+        <entry key="version" type="xstring" value="V_2019_09_13"/>
+        <config key="tree">
+            <config key="algo_settings">
+                <config key="alpha">
+                    <entry key="used_variable" type="xstring" value="Alpha"/>
+                    <entry key="used_variable_flawed" type="xboolean" value="false"/>
+                    <entry key="exposed_variable" type="xstring" value="0.1"/>
+                </config>
+            </config>
+        </config>
+    </config>
+    <entry key="customDescription" type="xstring" isnull="true" value=""/>
+    <entry key="state" type="xstring" value="EXECUTED"/>
+    <entry key="factory" type="xstring" value="org.knime.python3.nodes.extension.ExtensionNodeSetFactory$DynamicExtensionNodeFactory"/>
+    <entry key="node-name" type="xstring" value="Sklearn Lasso Regression Learner (Labs)"/>
+    <entry key="node-bundle-name" type="xstring" value="KNIME Nodes for Scikit-Learn (sklearn) Algorithms"/>
+    <entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.python.sklearn"/>
+    <entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+    <entry key="node-bundle-version" type="xstring" value="5.8.0.v202510071055"/>
+    <entry key="node-feature-name" type="xstring" value="KNIME Nodes for Scikit-Learn (sklearn) Algorithms"/>
+    <entry key="node-feature-symbolic-name" type="xstring" value="org.knime.python.features.sklearn.feature.group"/>
+    <entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+    <entry key="node-feature-version" type="xstring" value="5.8.0.v202510071055"/>
+    <entry key="factory-id-uniquifier" type="xstring" value="org.knime.python.sklearn_!_LassoLearner"/>
+    <config key="factory_settings">
+        <entry key="extension_id" type="xstring" value="org.knime.python.sklearn"/>
+        <entry key="node_id" type="xstring" value="LassoLearner"/>
+    </config>
+    <config key="node_creation_config">
+        <config key="Input Input table # 0"/>
+        <config key="Output Trained model # 0"/>
+    </config>
+    <entry key="name" type="xstring" value="Sklearn Lasso Regression Learner (Labs)"/>
+    <entry key="hasContent" type="xboolean" value="true"/>
+    <entry key="isInactive" type="xboolean" value="false"/>
+    <config key="ports">
+        <config key="port_1">
+            <entry key="index" type="xint" value="1"/>
+            <entry key="port_spec_class" type="xstring" value="org.knime.python3.nodes.ports.PythonBinaryBlobPortObjectSpec"/>
+            <entry key="port_object_class" type="xstring" value="org.knime.python3.nodes.ports.PythonBinaryBlobFileStorePortObject"/>
+            <entry key="port_object_summary" type="xstring" value="org.knime.python.sklearn.util.utils.RegressionModelObject"/>
+            <entry key="port_spec_location" type="xstring" value="spec/spec.zip"/>
+            <entry key="port_object_location" type="xstring" value="object/portobject.zip"/>
+            <entry key="port_dir_location" type="xstring" value="port_1"/>
+        </config>
+    </config>
+    <config key="filestores">
+        <entry key="file_store_location" type="xstring" isnull="true" value=""/>
+        <entry key="file_store_id" type="xstring" isnull="true" value=""/>
+    </config>
+</config>
