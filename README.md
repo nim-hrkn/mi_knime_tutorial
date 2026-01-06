@@ -32,6 +32,7 @@ KNIME（正式名称は KNIME Analytics Platform）は
 
 - GitHubからリポジトリをダウンロードできること
 - KNIMEをインストールできること
+- KNIME Hubにアクセス可能であること（追加ノードをインストールする必要があります。）
 - スライドURLにアクセス可能であること
 - 動画を視聴可能な環境を有していること
 
@@ -50,13 +51,14 @@ KNIME（正式名称は KNIME Analytics Platform）は
 - トイモデルを用いた線形回帰予測モデルを作成するワークフロー
 - 材料特徴量データを用いた予測モデルを作成するワークフロー
 
+***追加ノードのインストールが必要です。ファイルからワークフローを読み込むと自動的に追加ノードのインストールが始まるはずです。***
+
 本回では、KNIMEを初めて使用する方がつまずきやすい基礎的なポイントを丁寧に解説しているため、
 スライドのページ数および動画の再生時間は他回より長めになっています。
 
+スライド：https://www.docswell.com/s/3465680103/K6ERXM-2025-12-16-144428 (148 pages)
 
-スライド：https://www.docswell.com/s/3465680103/K6ERXM-2025-12-16-144428 (143 pages)
-
-動画：https://www.youtube.com/watch?v=OgcqZ6aYSQI (1:29:00)
+動画： https://www.youtube.com/watch?v=OgcqZ6aYSQI (1:28)
 
 #### 第二回目
 
@@ -65,7 +67,10 @@ KNIME（正式名称は KNIME Analytics Platform）は
 - 分類ワークフロー
 - クラスタリングワークフロー
 
-スライド：https://www.docswell.com/s/3465680103/K136LR-2025-12-16-144846 (68 pages)
+***追加ノードのインストールが必要です。ファイルからワークフローを読み込むと自動的に追加ノードのインストールが始まるはずです。***
+
+
+スライド：https://www.docswell.com/s/3465680103/K136LR-2025-12-16-144846 (73 pages)
 
 動画：https://www.youtube.com/watch?v=EJnXGGWyrXA (41:50)
 
@@ -79,7 +84,10 @@ KNIME（正式名称は KNIME Analytics Platform）は
 - 推薦システムのワークフロー
 - Scaling則のワークフロー
 
-スライド：https://www.docswell.com/s/3465680103/ZG2D3L-2025-12-16-145021 (100 pages)
+***追加ノードのインストールが必要です。ファイルからワークフローを読み込むと自動的に追加ノードのインストールが始まるはずです。***
+
+
+スライド：https://www.docswell.com/s/3465680103/ZG2D3L-2025-12-16-145021 (109 pages)
 
 動画：https://www.youtube.com/watch?v=usaizsR3sR0 (1:05:21)
 
