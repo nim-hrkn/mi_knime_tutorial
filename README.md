@@ -56,9 +56,9 @@ KNIME（正式名称は KNIME Analytics Platform）は
 本回では、KNIMEを初めて使用する方がつまずきやすい基礎的なポイントを丁寧に解説しているため、
 スライドのページ数および動画の再生時間は他回より長めになっています。
 
-スライド：https://www.docswell.com/s/3465680103/K6ERXM-2025-12-16-144428 (148 pages)
+スライド：https://www.docswell.com/s/3465680103/K6ERXM-2025-12-16-144428 (149 pages)
 
-動画： https://www.youtube.com/watch?v=OgcqZ6aYSQI (1:28)
+動画： https://youtu.be/q4YyytqBcGU (1:29:30)
 
 #### 第二回目
 
@@ -72,7 +72,7 @@ KNIME（正式名称は KNIME Analytics Platform）は
 
 スライド：https://www.docswell.com/s/3465680103/K136LR-2025-12-16-144846 (73 pages)
 
-動画：https://www.youtube.com/watch?v=EJnXGGWyrXA (41:50)
+動画：https://youtu.be/ckBnL1oMqUg (41:50)
 
 ### 応用編
 
@@ -89,7 +89,7 @@ KNIME（正式名称は KNIME Analytics Platform）は
 
 スライド：https://www.docswell.com/s/3465680103/ZG2D3L-2025-12-16-145021 (109 pages)
 
-動画：https://www.youtube.com/watch?v=usaizsR3sR0 (1:05:21)
+動画：https://youtu.be/pJBVpIFqEFA (1:05:16)
 
 
 ## 実行環境の構築と実行
