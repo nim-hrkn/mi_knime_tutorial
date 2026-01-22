@@ -38,6 +38,19 @@ KNIME（正式名称は KNIME Analytics Platform）は
 
 ※ 受講可否の判断には、各回の 「スライドおよび動画」 をご参照ください。
 
+
+## 実行環境の構築と実行
+### 1. KNIMEのインストール
+
+以下の公式サイトから KNIME をインストールしてください。
+
+https://www.knime.com/
+→ [Download KNIME for free]
+
+### 2. 本レポジトリの取得
+
+本レポジトリをダウンロードし、各自のPC上に保存してください。
+
 ## 内容
 
 ### 基礎編
@@ -56,7 +69,10 @@ KNIME（正式名称は KNIME Analytics Platform）は
 本回では、KNIMEを初めて使用する方がつまずきやすい基礎的なポイントを丁寧に解説しているため、
 スライドのページ数および動画の再生時間は他回より長めになっています。
 
-スライド：https://www.docswell.com/s/3465680103/K6ERXM-2025-12-16-144428 (149 pages)
+スライド：https://www.docswell.com/s/3465680103/K6ERXM-2025-12-16-144428 (149 pages), 
+https://mat-dacs.dxmt.mext.go.jp/knime_slide_2025_1
+（２つは同じスライドです。）
+
 
 動画： https://youtu.be/q4YyytqBcGU (1:29:30)
 
@@ -71,6 +87,10 @@ KNIME（正式名称は KNIME Analytics Platform）は
 
 
 スライド：https://www.docswell.com/s/3465680103/K136LR-2025-12-16-144846 (73 pages)
+,
+https://mat-dacs.dxmt.mext.go.jp/knime_slide_2025_2
+（２つは同じスライドです。）
+
 
 動画：https://youtu.be/ckBnL1oMqUg (41:50)
 
@@ -86,31 +106,22 @@ KNIME（正式名称は KNIME Analytics Platform）は
 
 
 
-スライド：https://www.docswell.com/s/3465680103/ZG2D3L-2025-12-16-145021 (109 pages)
+スライド：https://www.docswell.com/s/3465680103/ZG2D3L-2025-12-16-145021 (109 pages), 
+https://mat-dacs.dxmt.mext.go.jp/knime_slide_2025_3
+（２つは同じスライドです。）
 
 動画：https://youtu.be/pJBVpIFqEFA (1:05:16)
 
 ***追加ノードのインストールが必要です。ファイルからワークフローを読み込むと自動的に追加ノードのインストールが始まるはずです。***
 
 
-### workflow videos
+## workflow videos
 
 https://youtu.be/858xtuoMN_0
 
 workflowと設定のみ動画としています。
 
 
-## 実行環境の構築と実行
-### 1. KNIMEのインストール
-
-以下の公式サイトから KNIME をインストールしてください。
-
-https://www.knime.com/
-→ [Download KNIME for free]
-
-### 2. 本レポジトリの取得
-
-本レポジトリをダウンロードし、各自のPC上に保存してください。
 
 
 ## 参考書籍
